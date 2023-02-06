@@ -8,7 +8,7 @@ dotenv.config();
 console.log('process.env.OPENAI_API_KEY: ', process.env.OPENAI_API_KEY);
 
 const configuration = new Configuration({
-    apiKey: process.env.OPENAI_API_KEY,
+    apiKey: "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",
 });
 
 const openai = new OpenAIApi(configuration);
